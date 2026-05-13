@@ -13,6 +13,6 @@ app.use((req, res) => {
   res.status(200).send("OK");
 });
 
-app.listen(5000, () => {
+app.listen(80, () => {
   console.log("Server running on port 5000");
 });
